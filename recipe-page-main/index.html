@@ -22,7 +22,7 @@
         color: hsl(24, 5%, 18%);
       }
       #container {
-        margin: 10em;
+        margin: 20%;
         padding: 2em;
         background-color: hsl(0, 0%, 100%);
         border-radius: 1em;
@@ -80,6 +80,15 @@
       h2,
       tbody td {
         color: hsl(14, 45%, 36%);
+      }
+      @media screen and (max-width: 375px) {
+        #container {
+          margin: 0;
+        }
+        th,
+        td {
+          padding-right: 4.2em;
+        }
       }
     </style>
   </head>
